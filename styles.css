@@ -8,6 +8,9 @@ body {
     color: white;
 }
 h1 {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
     text-align: center;
     font-size: 80px;
     padding-top: 30px;
@@ -24,8 +27,13 @@ h1 {
 li {
     text-align: center;
 }
-.food img{
-    display: inline-block;
-    width: 398px;
-    height: 398px;
+.food {
+    display: flex;
+    justify-content: center;
+}
+.food img {    
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    padding: 5px;
 }
