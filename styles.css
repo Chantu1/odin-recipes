@@ -10,7 +10,7 @@ body {
 h1 {
     text-align: center;
     font-size: 80px;
-    padding: 50px;
+    padding-top: 30px;
 }
 .para {
     text-align: center;
@@ -20,6 +20,12 @@ h1 {
 .para.small-para {
     font-size: 15px;
 }
-ul {
+
+li {
     text-align: center;
+}
+.food img{
+    display: inline-block;
+    width: 398px;
+    height: 398px;
 }
