@@ -53,8 +53,14 @@ li {
     text-align: center;
 }
 /*All images inside container*/
-.container img{
+img {
     object-fit: cover;
     height: 700px;
     width: 100%;
+}
+.container {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 3px;
 }
