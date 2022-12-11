@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #faf7f8;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff4258;
+}
+.header {
+    background-color: #ff4258;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+    font-size: 80px;
+}
+.header.main {
+    color: white;
+}
+/*Unordered list box around the lists*/
+ul.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid black;
+    list-style: none;
+}
+/*The list boxes inside the unordered list box*/
+.navigation li {
+    padding: 0px 100px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/*Color of the link*/
+a:link {
+    color: white;
+}
+/*On anchor hover*/
+a:hover {
+    color: #ff4258;
+    text-decoration: underline;
+}
+/*On achor active*/
+a:active {
+    color: #fc818f;
+}
+li {
+    text-align: center;
+}
+/*All images inside container*/
+.container img{
+    object-fit: cover;
+    height: 700px;
+    width: 100%;
+}
