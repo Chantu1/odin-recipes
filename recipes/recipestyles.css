@@ -7,6 +7,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #ff4258;
 }
+h2, h3 {
+    color: #ff4258;
+    font-size: x-large;
+}
 .header {
     background-color: #ff4258;
     margin: auto;
@@ -63,4 +67,16 @@ img {
     text-align: center;
     color: white;
     padding: 3px;
+}
+.container2 ul, .container2 ol {
+    color: white;
+    margin-left: 1em;
+    list-style-position: inside;
+}
+.container2 ul li, .container2 ol li {
+    text-align: left;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
