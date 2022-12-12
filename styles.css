@@ -14,21 +14,6 @@ body {
     padding: 80px;
     font-size: 80px;
 }
-/*Unordered list box around the lists*/
-ul.navigation {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    font-size: 30px;
-    text-align: center;
-    border: 3px solid black;
-    list-style: none;
-}
-/*The list boxes inside the unordered list box*/
-.navigation li {
-    padding: 0px 100px;
-    
-}
 a {
     color: white;
     text-decoration: none;
@@ -70,4 +55,13 @@ img.diningroom {
     height: 200px;
     text-align: center;
     padding-top: 20px;
+}
+.flex-container {
+    display: flex;
+    text-align: center;
+}
+.flex-container div {
+    background-color: black;
+    padding: 5px;
+    flex: 1;
 }
