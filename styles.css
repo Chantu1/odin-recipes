@@ -6,11 +6,6 @@ body {
     background-color: #faf7f8;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    background-image: url("./images/diningroom.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 100%;
 }
 .header {
     background-color: #ff4258;
@@ -62,4 +57,15 @@ a:active {
 
 li {
     text-align: center;
+}
+img.diningroom {
+    object-fit: cover;
+    display: block;
+    height: 700px;
+    width: 100%;
+}
+.blackness {
+    background-color: black;
+    width: 100%;
+    height: 200px;
 }
