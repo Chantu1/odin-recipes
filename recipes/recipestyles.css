@@ -24,13 +24,12 @@ ul.navigation {
     background-color: black;
     font-size: 30px;
     text-align: center;
-    border: 3px solid black;
+    padding: 3px;
     list-style: none;
 }
 /*The list boxes inside the unordered list box*/
 .navigation li {
     padding: 0px 100px;
-    
 }
 a {
     color: white;
